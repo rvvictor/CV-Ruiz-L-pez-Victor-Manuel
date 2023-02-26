@@ -1,0 +1,249 @@
+*{
+    font-family: 'Franklin Gothic Medium';
+    margin: 0%;
+    padding: 0%;
+}
+.todo{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(imgs/fondo.jpg);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+.cont{
+    text-align: center;
+    margin: auto;
+    max-width: 1000px;
+    padding: 0 10px;
+}
+.nav{
+    position: fixed;
+    margin-top: -30px;
+    margin-left: 740px;
+    background-color: whitesmoke;
+    opacity: 69%;
+    padding: 12px;
+    border-radius: 23px;
+    text-align: left;
+    font-size: 20px;
+}
+.rv{
+    display: flex;
+    margin-left: 30px;
+    font-size: 2.5rem;
+    font-family: Roboto;
+    font-weight: bold;
+    text-shadow: 0 0 35px;
+    color: cornflowerblue;
+}
+.color-letras{
+    font-family: Roboto;
+    color: white;
+}
+.info{
+    padding-top: 40px;
+    padding-bottom: 130px;
+}
+h1{
+    font-size: 3rem;
+    letter-spacing: 4px;
+}
+h2{
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.foto{
+    position: relative;
+}
+img{
+    max-width: 200px;
+    border-radius: 50%;
+    border: 5px solid black;
+    position: absolute;
+    right: 40%;
+    top: -110px;
+}
+.sobremi{
+    background-color: #e6e6e6;
+    padding: 140px 0 100px 0;
+    text-align: center;
+}
+.todosobremi{
+    margin: auto;
+    max-width: 1000px;
+    padding: 0 10px;
+}
+h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.intru{
+    color: crimson;
+    font-weight: bold;
+    margin-top: 15px;
+}
+p{
+    max-width: 700px;
+    margin: auto;
+    color: grey
+}
+.tablita{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.colum{
+    width: 30%;
+}
+.titu-obj{
+    color: blueviolet;
+}
+.titu-pasa{
+    color: blueviolet;
+}
+li{
+    color: gray;
+    list-style-position: inside;
+    line-height: 1.1;
+    list-style-type: none;
+}
+.edu{
+    background-image: url(imgs/fondoedu.jpg);
+    background-repeat: round;
+    padding: 40px 0 100px 0;
+    text-align: center;
+    color: white;
+}
+.todoedu{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.infoedu{
+    text-align: left;
+    margin-left: 27%;
+    display: flexbox;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+table{
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+.datosedu{
+    width: 26%;
+    border-bottom: 1px solid gainsboro;
+}
+.nomscl{
+    margin-top: 10px;
+}
+.año{
+     font-size: 20px;
+     margin-bottom: 5px;
+}
+.dscescl{
+    font-size: 14px;
+    color: white;
+}
+.prom{
+    display: block;
+    color: crimson;
+    margin-top: 6px;
+    font-weight: bold;
+}
+.infoscls{
+    border-left: 1px solid gainsboro;
+    padding-left: 20px;
+}
+.tec{
+    font-size: 14px;
+    color: white;
+}
+.habi{
+    background-color: aliceblue;
+    padding: 70px 0 100px 0;
+    text-align: center;
+}
+.todohabi{
+    margin: auto;
+    max-width: 1000px;
+    padding: 0 10px;
+}
+.tabhabi{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.columhabi{
+    width: 30%;
+}
+.listhabi{
+    line-height: 2;
+    list-style-image: url(imgs/flecha.png);
+    list-style-position: inside;
+    color: black;
+}
+.infohabi{
+    text-align: left;
+}
+.listingles{
+    color: black;
+    line-height: 2.5;
+    font-size: 30px;
+}
+.infoingles{
+    background-image: url(imgs/fondoingles.jpg);
+    background-repeat: round;
+}
+.html{
+    position: static;
+}
+.git{
+    position: static;
+}
+.css{
+    position: static;
+}
+.cursos{
+    background-image: url(imgs/fondocursos.avif);
+    background-repeat: round;
+    padding: 70px 0 100px 0;
+    text-align: center;
+}
+.todocursos{
+    margin: auto;
+    max-width: 1000px;
+    padding: 0 10px;
+    color: white;
+}
+.tabcursos{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.contacto{
+    background-color: #202020;
+    padding: 140px 0 100px 0;
+    color: white;
+    text-align: center;
+}
+.todocontacto{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.tabcontacto{
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-around;
+}
+.columcontacto{
+    margin-top: 50px;
+
+}
+
+.devs{
+    position: static;
+    border: transparent;
+    height: 40px;
+}
