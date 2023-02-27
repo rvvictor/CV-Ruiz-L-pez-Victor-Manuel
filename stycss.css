@@ -1,0 +1,157 @@
+*{
+    font-family: 'Franklin Gothic Medium';
+    margin: 0%;
+    padding: 0%;
+}
+.todo{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)) darkgreen;
+    color: white;
+    background-position: center center;
+    background-size: cover;
+}
+.cont{
+    text-align: center;
+    margin: auto;
+    max-width: 1000px;
+    padding: 0 10px;
+}
+.nav{
+    position: fixed;
+    margin-top: -27px;
+    margin-left: 50.2%;
+    background-color: whitesmoke;
+    opacity: 1;
+    padding: 12px;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 18px;
+}
+.rv{
+    display: flex;
+    margin-left: 30px;
+    font-size: 2rem;
+    font-family: Roboto;
+    font-weight: bold;
+    text-shadow: 0 0 35px;
+    color: darkviolet;
+}
+.color-letras{
+    font-family: Roboto;
+    color: white;
+}
+.info{
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+h1{
+    font-size: 3rem;
+    letter-spacing: 4px;
+}
+.quees{
+    background-color: #e6e6e6;
+    padding: 100px 0 100px 0;
+    text-align: left;
+}
+.todoquees{
+    margin: 30px;
+    max-width: 1000px;
+    padding: 0 10px;
+    margin-right: 30%;
+}
+h3{
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: crimson;
+}
+.infoquees{
+    text-align: justify;
+}
+.imgcss{
+    max-width: 200px;
+    border-radius: 50%;
+    border: 5px solid black;
+    position: static;
+    margin-left: 110%;
+    margin-top: -20%;
+}
+.historia{
+    background-color: #e6e6e6;
+    padding: 100px 0 100px 0;
+    text-align: right;
+}
+.todohistoria{
+    margin: 30px;
+    max-width: 1300px;
+    padding: 0 10px;
+    margin-right: -40%;
+}
+.infohistoria{
+    text-align: end;
+}
+.paraq{
+    background-color: #e6e6e6;
+    padding: 100px 0 100px 0;
+    text-align: left;
+}
+.todoparaq{
+    margin: 30px;
+    max-width: 1000px;
+    padding: 0 10px;
+    margin-right: 30%;
+}
+.infoparaq{
+    text-align: justify;
+}
+.imgparaqcss{
+    max-width: 400px;
+    border-radius: 30px;
+    border: 5px solid black;
+    position: static;
+    margin-left: 104%;
+    margin-top: -20%;
+}
+.sintaxis{
+    background-color: #e6e6e6;
+    padding: 100px 0 100px 0;
+    text-align: left;
+}
+.todosintaxis{
+    margin: 30px;
+    max-width: 1000px;
+    padding: 0 10px;
+    margin-right: 30%;
+}
+.infosintaxis{
+    text-align: justify;
+}
+.imgsintaxis{
+    max-width: 450px;
+    border-radius: 30px;
+    border: 5px solid black;
+    position: static;
+    margin-left: 104%;
+    margin-top: -20%;
+}
+.modulos{
+    background-color: #e6e6e6;
+    padding: 100px 0 100px 0;
+    text-align: left;
+}
+.todomodulos{
+    margin: 30px;
+    max-width: 1000px;
+    padding: 0 10px;
+    margin-right: 30%;
+}
+.infomodulos{
+    text-align: justify;
+}
+.imgmodulos{
+    max-width: 450px;
+    border-radius: 30px;
+    border: 5px solid black;
+    position: static;
+    margin-left: 104%;
+    margin-top: -20%;
+}
