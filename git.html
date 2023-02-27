@@ -1,105 +1,135 @@
+<!DOCTYPE html>
 <html>
-	<head><title>Comando git</title></head>
-	<body>
-		<p><center><b><h1>¿Qué es git?</h1></b></center></p>
-		<p align=justify>Git es un sistema de control de versiones, un software que sirve básicamente para gestionar las versiones 
-		por las que va pasando el código de los proyectos.</p>
-
-		<p><b><h2>Comandos de git</h2></b></p>
-
-		<ol>
-			<li>
-				<a href="#Init">Init</a>
-			</li>
-			<li>
-				<a href="#Status">Status</a>
-			</li>
-			<li>
-				<a href="#Branch">Branch</a>
-			</li>
-			<li>
-				<a href="#Checkout">Checkout</a>
-			</li>
-			<li>
-				<a href="#Remote">Remote</a>
-			</li>
-			<li>
-				<a href="#Pull">Pull</a>
-			</li>
-			<li>
-				<a href="#Push">Push</a>
-			</li>
-			<li>
-				<a href="#Clone">Clone</a>
-			</li>
-			<li>
-				<a href="#Commit">Commit</a>
-			</li>
-		</ol>
-		
-		<hr width=100% size=5 color=black>
-
-		
-		<p id="Init"><b><h2>Init</h2></b></p>
-		<p>Cree un repositorio Git vacío o reinicie uno existente</p>
-		<p><b>Ejemplo</b></p>
-		<img src=https://media.geeksforgeeks.org/wp-content/uploads/20190429221019/git-init.png>
-
-		<hr width=100% size=5 color=black>
-
-		<p id="Status"><b><h2>Status</h2></b></p>
-		<p>Mostrar el estado del árbol de trabajo</p>
-		<p><b>Ejemplo</b></p>
-		<img src=https://static.javatpoint.com/tutorial/git/images/git-init4.png>
-
-		<hr width=100% size=5 color=black>
-
-		<p id="Branch"><b><h2>Branch</h2></b></p>
-		<p>Enumerar, crear o eliminar sucursales</p>
-		<p><b>Ejemplo</b></p>
-		<img src=https://www.jquery-az.com/wp-content/uploads/2018/06/5.0_4-show-branches-active.png>
-
-		<hr width=100% size=5 color=black>
-
-                <p id="Checkout"><b><h2>Checkout</h2></b></p>
-                <p>Cambie de rama o restaure los archivos del árbol de trabajo</p>
-                <p><b>Ejemplo</b></p>
-                <img src=https://www.jquery-az.com/wp-content/uploads/2018/06/2.0_3-Git-checkout-branch.png>
-
-		<hr width=100% size=5 color=black>
-
-                <p id="Remote"><b><h2>Remote</h2></b></p>
-                <p>Administrar un conjunto de repositorios rastreados</p>
-                <p><b>Ejemplo</b></p>
-                <img src=https://static.javatpoint.com/tutorial/git/images/git-remote3.png>
-
-		<hr width=100% size=5 color=black>
-
-                <p id="Pull"><b><h2>Pull</h2></b></p>
-                <p>Obtenga e integre con otro repositorio o una sucursal local</p>
-                <p><b>Ejemplo</b></p>
-                <img src=https://static.javatpoint.com/tutorial/git/images/git-remote4.png>
-
-		<hr width=100% size=5 color=black>
-
-                <p id="Push"><b><h2>Push</h2></b></p>
-                <p>Actualizar referencias remotas junto con objetos asociados</p>
-                <p><b>Ejemplo</b></p>
-                <img src=https://www.jquery-az.com/wp-content/uploads/2018/07/10.0_7-Git-push-force.png>
-
-		<hr width=100% size=5 color=black>
-
-                <p id="Clone"><b><h2>Clone</h2></b></p>
-                <p>Clonar un repositorio en un nuevo directorio</p>
-                <p><b>Ejemplo</b></p>
-                <img src=https://static.javatpoint.com/tutorial/git/images/git-clone-3.png>
-
-		<hr width=100% size=5 color=black>
-
-                <p id="Commit"><b><h2>Commit</h2></b></p>
-                <p>Registrar cambios en el repositorio</p>
-                <p><b>Ejemplo</b></p>
-                <img src=https://media.geeksforgeeks.org/wp-content/uploads/20220906212952/GitCommit1.jpg>
-
+    <head><title>PÁGINA HTML</title>
+        <meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="stygit.css">
+    </head>
+    <body>
+        <section class="todo" id="inicio">
+            <div class="rv">
+                <a href="index.html">R<span class="color-letras">V</span></a>
+            </div>
+            <div class="cont">
+                <header>
+                    <nav class="nav">
+                        <a href="#inicio">Inicio</a>
+                        <a href="#init">Init</a>
+                        <a href="#status">Status</a>
+                        <a href="#branch">Branch</a>
+                        <a href="#checkout">Checkout</a>
+                        <a href="#remote">Remote</a>
+                        <a href="#pull">Pull</a>
+						<a href="#push">Push</a>
+						<a href="#clone">Clone</a>
+						<a href="#commit">Commit</a>
+                    </nav>
+                </header>
+                <div id="inicio" class="info">
+                    <h1>GIT</h1>
+					<h2>Sistema de control de versiones que sirve para gestionar las versiones 
+						por las que va pasando el código de los proyectos.</h2>
+                </div>
+            </div>
+        </section>
+		<section class="init" id="init">
+            <div class="todoinit">
+                <h1>INIT</h1>
+                <div class="infoinit">
+                    <p>Cree un repositorio Git vacío o reinicie uno existente</p>
+                </div>
+                <div>
+                    <img class="imginit" src="imgs/init.png">
+                </div>        
+            </div>
+        </section>
+		<section class="status" id="status">
+            <div class="todostatus">
+                <h1>STATUS</h1>
+                <div class="infostatus">
+                    <p>Mostrar el estado del árbol de trabajo</p>
+                </div>
+                <div>
+                    <img class="imgstatus" src="imgs/status.png">
+                </div>        
+            </div>
+        </section>
+		<section class="branch" id="branch">
+            <div class="todobranch">
+                <h1>BRANCH</h1>
+                <div class="infobranch">
+                    <p>Enumerar, crear o eliminar sucursales</p>
+                </div>
+                <div>
+                    <img class="imgbranch" src="imgs/branch.png">
+                </div>        
+            </div>
+        </section>
+		<section class="checkout" id="checkout">
+            <div class="todocheck">
+                <h1>CHECKOUT</h1>
+                <div class="infocheck">
+                    <p>Cambie de rama o restaure los archivos del árbol de trabajo</p>
+                </div>
+                <div>
+                    <img class="imgcheck" src="imgs/check.png">
+                </div>        
+            </div>
+        </section>
+		<section class="remote" id="remote">
+            <div class="todoremote">
+                <h1>REMOTE</h1>
+                <div class="inforemote">
+                    <p>Administrar un conjunto de repositorios rastreados</p>
+                </div>
+                <div>
+                    <img class="imgremote" src="imgs/remote.png">
+                </div>        
+            </div>
+        </section>
+		<section class="pull" id="pull">
+            <div class="todopull">
+                <h1>PULL</h1>
+                <div class="infopull">
+                    <p>Obtenga e integre con otro repositorio o una sucursal local</p>
+                </div>
+                <div>
+                    <img class="imgpull" src="imgs/pull.png">
+                </div>        
+            </div>
+        </section>
+		<section class="push" id="push">
+            <div class="todopush">
+                <h1>PUSH</h1>
+                <div class="infopush">
+                    <p>Actualizar referencias remotas junto con objetos asociados</p>
+                </div>
+                <div>
+                    <img class="imgpush" src="imgs/push.png">
+                </div>        
+            </div>
+        </section>
+		<section class="clone" id="clone">
+            <div class="todoclone">
+                <h1>CLONE</h1>
+                <div class="infoclone">
+                    <p>Clonar un repositorio en un nuevo directorio</p>
+                </div>
+                <div>
+                    <img class="imgclone" src="imgs/clone.png">
+                </div>        
+            </div>
+        </section>
+		<section class="commit" id="commit">
+            <div class="todocommit">
+                <h1>COMMIT</h1>
+                <div class="infocommit">
+                    <p>Registrar cambios en el repositorio</p>
+                </div>
+                <div>
+                    <img class="imgcommit" src="imgs/commit.jpg">
+                </div>        
+            </div>
+        </section>
 	</body>
 </html>

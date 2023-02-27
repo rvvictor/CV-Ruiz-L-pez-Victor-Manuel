@@ -1,0 +1,271 @@
+*{
+    font-family: 'Franklin Gothic Medium';
+    margin: 0%;
+    padding: 0%;
+}
+.todo{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)) darkmagenta;
+    color: white;
+    background-position: center center;
+    background-size: cover;
+}
+.cont{
+    text-align: center;
+    margin: auto;
+    max-width: 1000px;
+    padding: 0 10px;
+}
+.nav{
+    position: fixed;
+    margin-top: -27px;
+    margin-left: 46%;
+    background-color: whitesmoke;
+    opacity: 1;
+    padding: 12px;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 18px;
+}
+.rv{
+    display: flex;
+    margin-left: 30px;
+    font-size: 2rem;
+    font-family: Roboto;
+    font-weight: bold;
+    text-shadow: 0 0 35px;
+    color: aliceblue;
+}
+.color-letras{
+    font-family: Roboto;
+    color: white;
+}
+.info{
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+h1{
+    font-size: 3rem;
+    letter-spacing: 4px;
+}
+h2{
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.init{
+    background-color: #e6e6e6;
+    padding: 100px 0 100px 0;
+    text-align: left;
+}
+.todoinit{
+    margin: 30px;
+    max-width: 1000px;
+    padding: 0 10px;
+    margin-right: 30%;
+}
+.infoinit{
+    margin-top: 2rem;
+    text-align: justify;
+    font-size: 18px
+    
+}
+.imginit{
+    max-width: 400px;
+    border-radius: 30px;
+    border: 5px solid black;
+    position: static;
+    margin-left: 90%;
+    margin-top: -10%;
+}
+.status{
+    background-color: #e6e6e6;
+    padding: 100px 0 100px 0;
+    text-align: left;
+}
+.todostatus{
+    margin: 30px;
+    max-width: 1000px;
+    padding: 0 10px;
+    margin-right: 30%;
+}
+.infostatus{
+    margin-top: 2rem;
+    text-align: justify;
+    font-size: 18px
+}
+.imgstatus{
+    max-width: 400px;
+    border-radius: 30px;
+    border: 5px solid black;
+    position: static;
+    margin-left: 90%;
+    margin-top: -10%;
+}
+.branch{
+    background-color: #e6e6e6;
+    padding: 100px 0 100px 0;
+    text-align: left;
+}
+.todobranch{
+    margin: 30px;
+    max-width: 1000px;
+    padding: 0 10px;
+    margin-right: 30%;
+}
+.infobranch{
+    margin-top: 2rem;
+    text-align: justify;
+    font-size: 18px
+}
+.imgbranch{
+    max-width: 400px;
+    border-radius: 30px;
+    border: 5px solid black;
+    position: static;
+    margin-left: 90%;
+    margin-top: -10%;
+}
+.checkout{
+    background-color: #e6e6e6;
+    padding: 100px 0 100px 0;
+    text-align: left;
+}
+.todocheck{
+    margin: 30px;
+    max-width: 1000px;
+    padding: 0 10px;
+    margin-right: 30%;
+}
+.infocheck{
+    margin-top: 2rem;
+    text-align: justify;
+    font-size: 18px
+}
+.imgcheck{
+    max-width: 400px;
+    border-radius: 30px;
+    border: 5px solid black;
+    position: static;
+    margin-left: 90%;
+    margin-top: -10%;
+}
+.remote{
+    background-color: #e6e6e6;
+    padding: 100px 0 100px 0;
+    text-align: left;
+}
+.todoremote{
+    margin: 30px;
+    max-width: 1000px;
+    padding: 0 10px;
+    margin-right: 30%;
+}
+.inforemote{
+    margin-top: 2rem;
+    text-align: justify;
+    font-size: 18px
+}
+.imgremote{
+    max-width: 400px;
+    border-radius: 30px;
+    border: 5px solid black;
+    position: static;
+    margin-left: 90%;
+    margin-top: -10%;
+}
+.pull{
+    background-color: #e6e6e6;
+    padding: 100px 0 100px 0;
+    text-align: left;
+}
+.todopull{
+    margin: 30px;
+    max-width: 1000px;
+    padding: 0 10px;
+    margin-right: 30%;
+}
+.infopull{
+    margin-top: 2rem;
+    text-align: justify;
+    font-size: 18px
+}
+.imgpull{
+    max-width: 400px;
+    border-radius: 30px;
+    border: 5px solid black;
+    position: static;
+    margin-left: 90%;
+    margin-top: -10%;
+}
+.push{
+    background-color: #e6e6e6;
+    padding: 100px 0 100px 0;
+    text-align: left;
+}
+.todopush{
+    margin: 30px;
+    max-width: 1000px;
+    padding: 0 10px;
+    margin-right: 30%;
+}
+.infopush{
+    margin-top: 2rem;
+    text-align: justify;
+    font-size: 18px
+}
+.imgpush{
+    max-width: 400px;
+    border-radius: 30px;
+    border: 5px solid black;
+    position: static;
+    margin-left: 90%;
+    margin-top: -10%;
+}
+.clone{
+    background-color: #e6e6e6;
+    padding: 100px 0 100px 0;
+    text-align: left;
+}
+.todoclone{
+    margin: 30px;
+    max-width: 1000px;
+    padding: 0 10px;
+    margin-right: 30%;
+}
+.infoclone{
+    margin-top: 2rem;
+    text-align: justify;
+    font-size: 18px
+}
+.imgclone{
+    max-width: 400px;
+    border-radius: 30px;
+    border: 5px solid black;
+    position: static;
+    margin-left: 90%;
+    margin-top: -10%;
+}
+.commit{
+    background-color: #e6e6e6;
+    padding: 100px 0 100px 0;
+    text-align: left;
+}
+.todocommit{
+    margin: 30px;
+    max-width: 1000px;
+    padding: 0 10px;
+    margin-right: 30%;
+}
+.infocommit{
+    margin-top: 2rem;
+    text-align: justify;
+    font-size: 18px
+}
+.imgcommit{
+    max-width: 400px;
+    border-radius: 30px;
+    border: 5px solid black;
+    position: static;
+    margin-left: 90%;
+    margin-top: -10%;
+}
